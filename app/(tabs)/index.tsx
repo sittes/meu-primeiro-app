@@ -20,7 +20,7 @@ export default function HomeScreen() {
 
 const styles = StyleSheet.create({
   titleContainer: {
-    borderBlockColor: '#121212',
+    borderBlockColor: '#121213',
     borderBottomWidth: 1,
     fontSize: 24,
     color: '#121212',
