@@ -1,5 +1,7 @@
 import { StyleSheet, Platform,Text,View,Button } from 'react-native';
 
+import  {StatusBar} from 'expo-status-bar';
+
 
 
 
@@ -7,23 +9,36 @@ export default function HomeScreen() {
   return (
    <View style={styles.Container}>
     <Text style={styles.titleContainer}>Minha jornada no react native</Text>
-    <Button   title="Criar conta" onPress={() => console.log("Button Pressed!")} />
+    <View style={styles.itemGrid}></View> 
+    <StatusBar style="auto" />
+    
+     
    </View>
+   
   );
 }
 
 const styles = StyleSheet.create({
   titleContainer: {
-    borderBlockColor: '#f64348',
+    borderBlockColor: '#121212',
     borderBottomWidth: 1,
-    fontSize: 60,
-    color: '#f64348',
+    fontSize: 24,
+    color: '#121212',
+    paddingBottom: 8,
   },
   Container: {
    flex: 1,
    backgroundColor: '#fff',
    alignItems: 'flex-start',
-   justifyContent: 'center',
-   padding: 80,
+   paddingTop: 80,
+   paddingHorizontal:16,
   },
+  itemGrid: {
+    flex: 1,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 16,
+    marginTop: 10,
+  },
+ 
 });
