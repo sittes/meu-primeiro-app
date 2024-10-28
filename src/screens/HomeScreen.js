@@ -13,13 +13,13 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#fff",
+        backgroundColor: "red",
         alignItems: "center",
         justifyContent: "center",
     },
     text: {
         fontSize: 40,
-        color: "#64248",
+        color: "#64348",
     },
 })
 
