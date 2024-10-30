@@ -6,9 +6,6 @@ export default function HomeScreen() {
         <View style={styles.container}>
             <Text style={styles.text}>Ola Mundo</Text>
             <Text style={styles.text}>Ola Mundo</Text>
-            <Text style={styles.text}>Ola Mundo</Text>
-            <Text style={styles.text}>Ola Mundo</Text>
-            <Text style={styles.text}>Ola Mundo</Text>
             <StatusBar style="auto" />
         </View>
     );
@@ -20,6 +17,7 @@ const styles = StyleSheet.create({
         backgroundColor: "red",
         alignItems: "center",
         justifyContent: "center",
+
         fontSize: 40,
         color: "#64348",
         padding: 16
