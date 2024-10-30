@@ -11,6 +11,7 @@ export default function StackNavigaton() {
             <Stack.Navigator initialRouteName="Home">
                 <Stack.Screen name="Home" component={HomeScreen} />
                 <Stack.Screen name="NavigationScreens" component={NavigationScreens} />
+                <Stack.Screen name="+not-found" component={NotFoundScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     );

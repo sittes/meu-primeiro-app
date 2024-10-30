@@ -5,6 +5,7 @@ export default function HomeScreen() {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Ola Mundo</Text>
+            <Text style={styles.text}>Ola Mundo</Text>
             <StatusBar style="auto" />
         </View>
     );
@@ -13,9 +14,10 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#fff",
+        backgroundColor: "red",
         alignItems: "center",
         justifyContent: "center",
+        color: "#64348",
     },
     text: {
         fontSize: 40,
