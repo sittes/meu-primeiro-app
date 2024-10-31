@@ -6,7 +6,7 @@ export default function HomeScreen() {
         <View style={styles.container}>
             <Text style={styles.text}>Ola Mundo</Text>
             <Text style={styles.text}>Ola Mundo</Text>
-            <Text style={styles.text}>a Mundo</Text>
+            <Text style={styles.text}>Mundo</Text>
             <StatusBar style="auto" />
         </View>
     );
