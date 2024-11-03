@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function HomeScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Ola Mundo</Text>
+            <Text style={styles.text}>Ola MundoO</Text>
             <Text style={styles.text}>Ola Mundo</Text>
             <Text style={styles.text}>Mundo</Text>
             <StatusBar style="auto" />
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 
         fontSize: 30,
         color: "#54348",
-        padding: 16
+        padding: 17
 
     },
     text: {
