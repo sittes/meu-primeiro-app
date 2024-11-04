@@ -23,7 +23,7 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
         </ThemedText>
         <ThemedText>
-          The layout file i <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
+          The layout file  <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
           sets up the tab navigato.
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/router/introduction">
